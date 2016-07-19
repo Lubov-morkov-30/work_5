@@ -1,0 +1,183 @@
+body{
+	background: url(images/Background.jpg) no-repeat;
+	background-position: center; 
+	 font-family: 'Helvetica Neue italic';
+}
+
+.body{
+	width: 1215px;
+	height: 1065px;
+	margin: auto;
+	font-size: 12px;
+ 
+}
+
+@font-face {
+    font-family: 'Helvetica Neue italic';
+    src: url('fonts/helveticaneuecyr-thinitalic-webfont.eot');
+    src: url('fonts/helveticaneuecyr-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneuecyr-thinitalic-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneuecyr-thinitalic-webfont.woff') format('woff'),
+         url('fonts/helveticaneuecyr-thinitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header{
+	height: 36px;
+	background: #074f8f;
+
+}
+
+/*BLOCK*/
+.block{
+	height: 34px;
+	width: auto;
+	
+}
+.one{
+	float: right;
+	width: 190px;
+	background: #4baada;
+	color: #ffffff;
+	border: 1px solid #54a1db;
+	text-align: center;
+	margin-right: 19px;
+}
+.one a{
+
+	color: #ffffff;
+	text-decoration: underline;
+	line-height: 32px;
+}
+
+.two{
+	float: right;
+	width: 160px;
+	height: 34px;
+	border-left: #54a1db solid 1px;
+	color: #ffffff;
+	line-height: 32px;
+	text-align: center;
+	background: url(images/flag.png) 10% 50% no-repeat;;
+}
+
+.block{
+	
+	margin-right: 20px;
+	width: 1215px;
+}
+
+/*MENU*/
+.menu{
+	
+}
+.menu li{
+	float: right;
+	width: auto;
+	padding: 0 10px;
+	line-height: 36px;
+	color: #60b5ed;
+}
+.menu li:hover{
+	background: #4eabda;
+	color: #ffffff;
+}
+
+/*FORMA*/
+
+.forma{
+	position: relative;
+	top: 212px;
+	left: 350px;
+}
+
+.forma-1{
+	width: 560px;
+	height: 65px;
+	background: rgba(0, 0, 0, 0.5);
+	margin-bottom: 2px;
+	color: #ffffff;
+	line-height: 65px;
+	text-align: center;
+}
+
+.forma-2{
+	width: 560px;
+	height: 550px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.facebook{
+	position: relative;
+	top: 38px;
+	left: 143px;
+	width: 275px;
+	height: 38px;
+	margin-bottom: 16px;
+
+}
+
+.OU{
+	position: relative;
+	top: 38px;
+	left: 143px;
+	width: 275px;
+	height: 35px;
+	vertical-align: center;
+	
+}
+
+
+#First-Name{
+	position: relative;
+	top: 38px;
+	left: 143px;
+	width: 259px;
+	height: 35px;
+	background: #0f0f0f;
+	color: #cccccc;
+	line-height: 35px;
+	padding-left: 18px;
+	margin-bottom: 16px;
+	border: none;
+	border-bottom: 1px solid #4a4a48;
+	 font-family: 'Helvetica Neue italic';
+
+}
+#First-Name:hover{
+	background: #1b5288;
+	box-shadow: 0 0 5px 2px #4a85ad;
+	border-bottom: 1px solid #699bcd;
+}
+.checkbox{
+	position: relative;
+	top: 38px;
+	left: 143px;
+	color: #cccccc;
+}
+
+.submit{
+	position: relative;
+	top: 38px;
+	left: 205px;
+	margin-top: 18px;
+	width: 150px;
+	height: 34px;
+	color: white;
+	background: url(images/submit.jpg);
+	border: none;
+	border-radius: 3px;
+}
+
+.By{
+	position: relative;
+	top: 38px;
+	left: 120px;
+	margin-top: 20px;
+	width: 315px;
+	height: 35px;
+	text-align: center;
+	color: #cccccc;
+}
