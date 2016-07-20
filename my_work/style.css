@@ -27,17 +27,14 @@ body{
 header{
 	height: 36px;
 	background: #074f8f;
-
+	width: 1215px;
 }
 
 /*BLOCK*/
-.block{
-	height: 34px;
-	width: auto;
-	
-}
+
 .one{
 	float: right;
+	height: 34px;
 	width: 190px;
 	background: #4baada;
 	color: #ffffff;
@@ -46,10 +43,10 @@ header{
 	margin-right: 19px;
 }
 .one a{
-
 	color: #ffffff;
 	text-decoration: underline;
 	line-height: 32px;
+
 }
 
 .two{
@@ -57,30 +54,37 @@ header{
 	width: 160px;
 	height: 34px;
 	border-left: #54a1db solid 1px;
-	color: #ffffff;
 	line-height: 32px;
 	text-align: center;
-	background: url(images/flag.png) 10% 50% no-repeat;;
+	background: url(images/flag.png) 10% 50% no-repeat;
 }
-
-.block{
-	
-	margin-right: 20px;
-	width: 1215px;
+.two a{
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 /*MENU*/
 .menu{
+	height: 36px;
+	padding: 0;
 	
 }
 .menu li{
 	float: right;
-	width: auto;
-	padding: 0 10px;
 	line-height: 36px;
-	color: #60b5ed;
+	
 }
-.menu li:hover{
+
+.menu li a{
+display: block;
+color: #60b5ed;
+width: auto;
+padding: 0 10px;
+text-decoration:none; 
+}
+
+.menu li a:hover{
 	background: #4eabda;
 	color: #ffffff;
 }
@@ -94,13 +98,19 @@ header{
 }
 
 .forma-1{
+	
 	width: 560px;
 	height: 65px;
 	background: rgba(0, 0, 0, 0.5);
 	margin-bottom: 2px;
 	color: #ffffff;
-	line-height: 65px;
+	
 	text-align: center;
+}
+h1{
+	display: block;
+	height: 65px;
+	line-height: 65px;
 }
 
 .forma-2{
@@ -130,7 +140,7 @@ header{
 }
 
 
-#First-Name{
+.First-Name input{
 	position: relative;
 	top: 38px;
 	left: 143px;
@@ -146,7 +156,7 @@ header{
 	 font-family: 'Helvetica Neue italic';
 
 }
-#First-Name:hover{
+.First-Name input:hover{
 	background: #1b5288;
 	box-shadow: 0 0 5px 2px #4a85ad;
 	border-bottom: 1px solid #699bcd;
