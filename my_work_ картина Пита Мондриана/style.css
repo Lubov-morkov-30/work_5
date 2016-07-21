@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.tab{
+	background: #ffffff;
+	position: absolute;
+	top: 120px;
+	left:380px;
+}
+
+table, th, td { 
+	border-collapse: collapse;
+}	   
+
+.one, .two{
+	height: 47px;
+	border-right: 10px solid #000000;
+}
+
+.four{
+	width: 47px;
+	height: 130px;
+}
+
+.nineteen{
+	width: 63px;
+	height: 61px;
+}
+
+.seven{
+	width: 77px;
+	height: 128px;
+}
+
+.eight{
+	width: 75px;
+}
+
+.twelve{
+	width: 63px;
+	height: 61px;
+}
+
+.eleven{
+	width: 128px;
+}
+
+.twenty-one{
+	width: 63px;
+	height: 61px;
+}
+
+.sexteen{
+	height: 29px;
+}
+
+.fourteen{
+	height: 135px;
+}
+
+.five{
+	background: url(images/red.jpg);
+	border: 10px solid #000000;
+}
+
+.thre, .fourteen, .six{
+	background: url(images/yellow.jpg);
+}
+
+.seventeen{
+	background: url(images/blue.jpg);
+}
+
+.nineteen, .twelve, .twenty-one, .ten, .eighteen, .sexteen{
+	background: url(images/black.jpg);
+	border: 10px solid #000000;
+}
+
+.seven, .thirteen, .eleven{
+	border: 10px solid #000000;
+}
+
+.fourteen, .nine, .four, .six, .seventeen{
+	border-top: 10px solid #000000;
+}
